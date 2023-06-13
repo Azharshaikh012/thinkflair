@@ -11,6 +11,12 @@ module.exports = {
         // => @media (min-width: 420px) { ... }
         'xxs': '370px',
       },
+      maxWidth: {
+        'xmd': '400px',
+      },
+      //  backgroundImage: {
+      //   'bg1': "url('/images/section1-bg.png')",
+      // }
     },
   },
   plugins: [],
