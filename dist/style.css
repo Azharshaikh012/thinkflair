@@ -1447,6 +1447,20 @@ video {
     border-radius: 0px;
   }
 
+  .sm\:rounded-l {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+
+  .sm\:rounded-r {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
+
+  .sm\:border {
+    border-width: 1px;
+  }
+
   .sm\:border-r-2 {
     border-right-width: 2px;
   }
@@ -1455,8 +1469,24 @@ video {
     border-top-width: 2px;
   }
 
+  .sm\:border-l {
+    border-left-width: 1px;
+  }
+
+  .sm\:border-b-2 {
+    border-bottom-width: 2px;
+  }
+
+  .sm\:border-r {
+    border-right-width: 1px;
+  }
+
   .sm\:border-dashed {
     border-style: dashed;
+  }
+
+  .sm\:border-none {
+    border-style: none;
   }
 
   .sm\:border-white {
