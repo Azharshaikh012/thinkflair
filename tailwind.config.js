@@ -14,9 +14,11 @@ module.exports = {
       maxWidth: {
         'xmd': '400px',
       },
-      //  backgroundImage: {
-      //   'bg1': "url('/images/section1-bg.png')",
-      // }
+      fontFamily: {
+        'poppins': ['Poppins'],
+        'robot' : ['Roboto'],
+        'inter' : ['Inter'],
+    },
     },
   },
   plugins: [],
