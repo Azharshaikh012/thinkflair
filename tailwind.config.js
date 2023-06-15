@@ -16,9 +16,14 @@ module.exports = {
       },
       fontFamily: {
         'poppins': ["'Poppins'", 'sans-serif'],
-        'robot' : ["'Roboto'", 'sans-serif'],
+        'roboto' : ["'Roboto'", 'sans-serif'],
         'inter' : ["'Inter'" ,'sans-serif'],
     },
+    lineHeight: {
+      '11': '44px',
+      '12': '48px',
+      '13': '52px'
+    }
     },
   },
   plugins: [],
