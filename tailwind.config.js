@@ -15,9 +15,9 @@ module.exports = {
         'xmd': '400px',
       },
       fontFamily: {
-        'poppins': ['Poppins'],
-        'robot' : ['Roboto'],
-        'inter' : ['Inter'],
+        'poppins': ["'Poppins'", 'sans-serif'],
+        'robot' : ["'Roboto'", 'sans-serif'],
+        'inter' : ["'Inter'" ,'sans-serif'],
     },
     },
   },
