@@ -1406,6 +1406,11 @@ video {
     background-color: rgb(30 41 59 / var(--tw-bg-opacity));
   }
 
+  .dark\:bg-slate-950{
+    --tw-bg-opacity: 1;
+    background-color: rgb(2 6 23 / var(--tw-bg-opacity));
+  }
+
   .dark\:text-gray-100{
     --tw-text-opacity: 1;
     color: rgb(243 244 246 / var(--tw-text-opacity));
@@ -1441,8 +1446,32 @@ video {
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
+  .dark\:opacity-100{
+    opacity: 1;
+  }
+
+  .dark\:mix-blend-normal{
+    mix-blend-mode: normal;
+  }
+
+  .dark\:mix-blend-multiply{
+    mix-blend-mode: multiply;
+  }
+
+  .dark\:mix-blend-darken{
+    mix-blend-mode: darken;
+  }
+
   .dark\:mix-blend-hard-light{
     mix-blend-mode: hard-light;
+  }
+
+  .dark\:mix-blend-exclusion{
+    mix-blend-mode: exclusion;
+  }
+
+  .dark\:mix-blend-color{
+    mix-blend-mode: color;
   }
 
   .dark\:hover\:shadow-gray-400:hover{
