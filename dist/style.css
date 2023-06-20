@@ -1860,6 +1860,16 @@ video {
     padding-bottom: 1rem;
   }
 
+  .md\:px-28{
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .md\:px-32{
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
   .md\:pl-10{
     padding-left: 2.5rem;
   }
@@ -1890,6 +1900,11 @@ video {
 
   .md\:font-extrabold{
     font-weight: 800;
+  }
+
+  .md\:text-nero{
+    --tw-text-opacity: 1;
+    color: rgb(26 26 26 / var(--tw-text-opacity));
   }
 }
 
